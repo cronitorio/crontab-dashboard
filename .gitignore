@@ -1,0 +1,10 @@
+node_modules/
+web/build/
+web/static/*
+!web/static/.gitkeep
+dist/
+crontab-dashboard
+cronitor
+.env
+*.log
+.DS_Store
