@@ -172,12 +172,12 @@ function Sidebar({ isDark, toggleTheme }) {
             <div className="px-4 py-2">
               <div className="flex items-center justify-between">
                 <a
-                  href="https://cronitor.io/docs/using-cronitor-cli"
+                  href="https://github.com/cronitorio/crontab-dashboard"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300"
                 >
-                  CronitorCLI v{data?.version || '...'}
+                  Crontab Guru v{data?.version || '...'}
                 </a>
                 {/* Update Button */}
                 {data?.update_status && data.update_status.has_update && !data?.safe_mode && (

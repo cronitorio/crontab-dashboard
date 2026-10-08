@@ -387,10 +387,10 @@ export default function Docs() {
 
           <h4 className="text-md font-medium text-gray-900 dark:text-white mt-6">Version Management</h4>
           <p className="text-gray-700 dark:text-gray-300">
-            Keep your CronitorCLI installation up to date. An "update" button will be shown on the dashboard when a new version is available. To schedule updates you can use the command line:
+            Dashboard releases update the dashboard and its bundled CLI together. An "update" button appears when a new dashboard version is available. For a native installation, you can also use the command line:
           </p>
           <CodeBlock>
-{`# Update to latest version (via dashboard or CLI)
+{`# Update the dashboard and bundled CLI
 crontab-dashboard update
 
 # Restart your dashboard to apply the update`}
@@ -402,7 +402,7 @@ crontab-dashboard update
           </p>
           <ul className="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
             <li><strong>Port conflicts:</strong> Change default port with <code>--port</code> flag</li>
-            <li><strong>Authentication errors:</strong> Reconfigure credentials with <code>`cronitor configure`</code></li>
+            <li><strong>Authentication errors:</strong> Reconfigure credentials with <code>`crontab-dashboard configure`</code></li>
             <li><strong>Permission issues:</strong> Check file system permissions for config directory</li>
             <li><strong>Network problems:</strong> Verify firewall settings and local network access</li>
           </ul>

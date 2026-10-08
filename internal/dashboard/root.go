@@ -68,7 +68,7 @@ var varUsers = "CRONITOR_USERS"
 var varApiVersion = "CRONITOR_API_VERSION"
 
 func init() {
-	userAgent = fmt.Sprintf("CronitorCLI/%s", Version)
+	userAgent = fmt.Sprintf("CrontabGuruDashboard/%s", Version)
 	cobra.OnInitialize(initConfig)
 
 	// Here you will define your flags and configuration settings.
