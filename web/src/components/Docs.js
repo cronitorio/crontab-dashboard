@@ -706,10 +706,10 @@ crontab-dashboard --safe-mode`}
           </p>
           <CodeBlock>
 {`# Allow access only from specific IPs
-crontab-dashboard configure --allow-ips 192.168.1.0/24,10.0.0.1
+crontab-dashboard configure --allowed-ips 192.168.1.0/24,10.0.0.1
 
 # Allow access from local network only
-crontab-dashboard configure --allow-ips 127.0.0.1,::1,192.168.0.0/16`}
+crontab-dashboard configure --allowed-ips 127.0.0.1,::1,192.168.0.0/16`}
           </CodeBlock>
           <ul className="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
             <li>Supports both IPv4 and IPv6 addresses</li>

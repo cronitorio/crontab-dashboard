@@ -41,7 +41,7 @@ On the machine where your cron jobs run, start the Cronitor dashboard:
 # (--dash-username / --dash-password work but appear in shell history and process lists)
 export CRONITOR_DASH_USER=USER
 export CRONITOR_DASH_PASS=PASS
-cronitor configure
+crontab-dashboard configure
 
 # Start the dashboard (runs on port 9000 by default)
 crontab-dashboard
@@ -314,7 +314,7 @@ crontab-dashboard --mcp-instance production
 
 ```bash
 # View current configuration
-cronitor configure
+crontab-dashboard configure
 ```
 
 ### Common Issues
@@ -358,4 +358,4 @@ You can configure persistent rules that guide how your AI tool interacts with th
 For issues or questions:
 - Check the [Cronitor documentation](https://cronitor.io/docs)
 - Review the [MCP specification](https://modelcontextprotocol.io)
-- Open an issue on the [Cronitor CLI GitHub repository](https://github.com/cronitorio/crontab-dashboard)
+- Open an issue on the [Crontab Guru Dashboard GitHub repository](https://github.com/cronitorio/crontab-dashboard)
